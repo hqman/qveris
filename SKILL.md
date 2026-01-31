@@ -3,19 +3,19 @@ name: qveris
 description: Search and execute dynamic tools via QVeris API. Use when needing to find and call external APIs/tools dynamically (weather, search, data retrieval, stock trading analysis, etc.). Requires QVERIS_API_KEY environment variable.
 triggers:
   - pattern: "股票|stock|股价|股市"
-    description: "检测股票相关查询"
+    description: "Detect stock-related queries"
   - pattern: "交易|trading|买卖|成交"
-    description: "检测交易相关查询"
+    description: "Detect trading-related queries"
   - pattern: "分析|analysis|数据|指标|技术分析|基本面"
-    description: "检测分析相关查询"
+    description: "Detect analysis-related queries"
   - pattern: "市值|涨跌|收盘|开盘|市盈率|pe|pb"
-    description: "检测股票指标查询"
+    description: "Detect stock indicator queries"
 auto_invoke: true
 examples:
-  - "帮我查一下特斯拉的股价"
-  - "分析一下苹果公司的财报数据"
-  - "查询今日A股涨停板"
-  - "获取比特币实时价格"
+  - "Check Tesla stock price"
+  - "Analyze Apple's financial data"
+  - "Get Bitcoin real-time price"
+  - "Show me current weather in Tokyo"
 ---
 
 # QVeris Tool Search & Execution
