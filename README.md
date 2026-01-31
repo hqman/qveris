@@ -30,6 +30,13 @@ For other installation methods, see the [official uv installation guide](https:/
 
 ### Install the Skill
 
+**Option 1: Install via ClawdHub (Recommended)**
+```bash
+clawdhub install qveris
+```
+
+**Option 2: Manual Installation**
+
 1. Copy this folder to your Claude Code skills directory:
    ```bash
    cp -r qveris ~/.claude/skills/
