@@ -61,6 +61,10 @@ uv run scripts/qveris_tool.py search "stock price data"
 uv run scripts/qveris_tool.py execute <tool_id> --search-id <id> --params '{"symbol": "AAPL"}'
 ```
 
+## 作者
+
+[@hqmank](https://x.com/hqmank)
+
 ## 许可证
 
 MIT
