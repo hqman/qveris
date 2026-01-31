@@ -35,7 +35,12 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 clawdhub install qveris
 ```
 
-**方式二：手动安装**
+**方式二：通过 NPX 安装（适用于其他编码代理）**
+```bash
+npx skills add hqman/qveris
+```
+
+**方式三：手动安装**
 
 1. 将此文件夹复制到您的 Claude Code 技能目录：
    ```bash

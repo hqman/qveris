@@ -35,7 +35,12 @@ For other installation methods, see the [official uv installation guide](https:/
 clawdhub install qveris
 ```
 
-**Option 2: Manual Installation**
+**Option 2: Install via NPX (For other coding agents)**
+```bash
+npx skills add hqman/qveris
+```
+
+**Option 3: Manual Installation**
 
 1. Copy this folder to your Claude Code skills directory:
    ```bash
